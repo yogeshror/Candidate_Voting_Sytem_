@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Candidate_Voting_Sytem_Final.Migrations
+namespace Candidate_Voting_Sytem_Final.Migrations.Candidate_Voting_Data
 {
     [DbContext(typeof(Candidate_Voting_DataContext))]
-    [Migration("20200114045831_Candidate_Votes")]
-    partial class Candidate_Votes
+    [Migration("20211122211452_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

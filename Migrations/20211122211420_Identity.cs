@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Candidate_Voting_Sytem_Final.Migrations.Candidate_Voting_Identity
+namespace Candidate_Voting_Sytem_Final.Migrations
 {
-    public partial class Candidate_Votes_Identity : Migration
+    public partial class Identity : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

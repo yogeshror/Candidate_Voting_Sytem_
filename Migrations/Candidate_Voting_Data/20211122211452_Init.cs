@@ -1,9 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
-using System.IO;
 
-namespace Candidate_Voting_Sytem_Final.Migrations
+namespace Candidate_Voting_Sytem_Final.Migrations.Candidate_Voting_Data
 {
-    public partial class Candidate_Votes : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -70,9 +69,6 @@ namespace Candidate_Voting_Sytem_Final.Migrations
                 name: "IX_Vote_VoterId",
                 table: "Vote",
                 column: "VoterId");
-
-            var sqlFile = Path.Combine(".\\DatabaseScripts", @"data.sql");
-            migrationBuilder.Sql(File.ReadAllText(sqlFile));
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

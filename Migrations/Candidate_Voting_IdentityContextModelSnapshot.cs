@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Candidate_Voting_Sytem_Final.Migrations.Candidate_Voting_Identity
+namespace Candidate_Voting_Sytem_Final.Migrations
 {
     [DbContext(typeof(Candidate_Voting_IdentityContext))]
     partial class Candidate_Voting_IdentityContextModelSnapshot : ModelSnapshot

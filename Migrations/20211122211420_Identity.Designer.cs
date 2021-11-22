@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Candidate_Voting_Sytem_Final.Migrations.Candidate_Voting_Identity
+namespace Candidate_Voting_Sytem_Final.Migrations
 {
     [DbContext(typeof(Candidate_Voting_IdentityContext))]
-    [Migration("20200114050326_Candidate_Votes_Identity")]
-    partial class Candidate_Votes_Identity
+    [Migration("20211122211420_Identity")]
+    partial class Identity
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
